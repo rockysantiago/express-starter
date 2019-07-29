@@ -10,7 +10,8 @@
     "build": "backpack build",
     "serve": "node ./build/main.js",
     "test": "jest",
-    "test:e2e": "jest -c test/jest-e2e.json"
+    "test:e2e": "jest -c test/jest-e2e.json",
+    "cover": "jest --coverage"
   },
   "dependencies": {
     "backpack-core": "^0.8.4",
@@ -22,7 +23,7 @@
     "babel-jest": "^24.8.0",
     "babel-plugin-module-resolver": "^3.2.0",
     "eslint": "^6.1.0",
-    "eslint-plugin-jest": "^22.13.7",
+    "eslint-plugin-jest": "^22.14.0",
     "husky": ">=1",
     "jest": "^24.8.0",
     "lint-staged": ">=8",

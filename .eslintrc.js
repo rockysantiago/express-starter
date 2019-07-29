@@ -20,4 +20,7 @@ module.exports = {
     'no-fallthrough': 1,
     'no-extra-boolean-cast': 1,
   },
+  globals: {
+    __DEV__: true,
+  },
 };

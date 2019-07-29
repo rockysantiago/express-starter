@@ -4,4 +4,7 @@ module.exports = {
   rootDir: 'src',
   testRegex: '.spec.js$',
   coverageDirectory: '../coverage',
+  globals: {
+    __DEV__: true,
+  },
 };

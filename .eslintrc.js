@@ -1,16 +1,16 @@
 module.exports = {
   env: {
     es6: true,
-    node: true,
+    node: true
   },
   extends: 'eslint:recommended',
   globals: {
     Atomics: 'readonly',
-    SharedArrayBuffer: 'readonly',
+    SharedArrayBuffer: 'readonly'
   },
   parserOptions: {
     ecmaVersion: 2018,
-    sourceType: 'module',
+    sourceType: 'module'
   },
   plugins: ['jest'],
   rules: {
@@ -18,6 +18,6 @@ module.exports = {
     'no-unused-vars': 1,
     'no-useless-escape': 1,
     'no-fallthrough': 1,
-    'no-extra-boolean-cast': 1,
-  },
+    'no-extra-boolean-cast': 1
+  }
 };

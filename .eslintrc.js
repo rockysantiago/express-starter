@@ -2,9 +2,11 @@ module.exports = {
   env: {
     es6: true,
     node: true,
+    jest: true,
   },
   extends: 'eslint:recommended',
   globals: {
+    __DEV__: true,
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly',
   },
@@ -18,8 +20,5 @@ module.exports = {
     'no-useless-escape': 1,
     'no-fallthrough': 1,
     'no-extra-boolean-cast': 1,
-  },
-  globals: {
-    __DEV__: true,
   },
 };

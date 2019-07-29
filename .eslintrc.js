@@ -15,7 +15,7 @@ module.exports = {
   plugins: ['jest'],
   rules: {
     'no-undef': 0,
-    'no-console': ['warn', { allow: ['warn', 'error'] }],
+    'no-console': ['error', { allow: ['warn', 'error'] }],
     'no-unused-vars': 1,
     'no-empty': 0,
     'no-useless-escape': 1,
